@@ -1,0 +1,78 @@
+---
+slug: "tr/03"
+title: "3. ders: basit cümleler"
+description: "li, e, soweli, waso, pipi, kasi, moku, lukin ve sona'yı öğrenin!"
+practice:
+- title: "1. Tekrar"
+  tasks:
+  - l1: "Hayvan böceği bilir."
+    l2: "soweli li sona e pipi."
+    junkChips: ["waso"]
+  - l1: "Böcek bitkiyi yer."
+    l2: "pipi li moku e kasi."
+    junkChips: ["soweli"]
+  - l1: "Kuş bitkiyi görür."
+    l2: "waso li lukin e kasi."
+    junkChips: ["moku"]
+  - l1: "Kuş hayvanı bilir."
+    l2: "waso li sona e soweli."
+    junkChips: ["pipi"]
+---
+
+import Sentence from "@/components/Sentence.astro";
+import List from "@/components/List.astro";
+import Word from "@/components/Word.astro";
+import Practice from "@/components/Practice.astro";
+
+## Basit cümleler
+
+Artık Toki Pona okumayı bildiğinize göre, kelime ve cümle öğrenme vakti!  
+Bazı şeyler ve eylemler için kelimeler:
+
+<List>
+  <Word sl="soweli" m="kara hayvanı; kedi, köpek, inek, fare, fil gibi" />
+  <Word sl="waso" m="kuş; güvercin, kaz, baykuş gibi" />
+  <Word sl="pipi" m="böcek; karınca, kelebek, örümcek gibi" />
+  <Word sl="kasi" m="bitki; yonca, huş ağacı, kaktüs, yosun gibi" />
+  <Word sl="moku" m="tüketmek" />
+  <Word sl="lukin" m="görmek" />
+  <Word sl="sona" m="bilmek" />
+</List>
+
+{/* A note for translators */}
+{/*
+  When translating word definitions, such as "land animal", "insect", "plant",
+  it's better to use everyday words rather than scientific ones.
+*/}
+
+Epey sık rastlanan bir cümle türü "özne-eylem-nesne"dir. Bu cümlelerde, bir şey (özne) başka bir şeye (nesneye) bir şey yapar. Böyle birkaç cümle kuralım:
+
+{/* A note for translators */}
+{/*
+  Your language may instead be SOV or VSO. If it is, please draw attention
+  to this difference between your language and Toki Pona.
+*/}
+
+<List>
+  <Sentence sl="soweli li moku e kasi." m="Hayvan bitkiyi yer." />
+  <Sentence sl="waso li moku e pipi." m="Kuş böceği yer." />
+  <Sentence sl="pipi li lukin e soweli." m="Böcek bir hayvan görür." />
+  <Sentence sl="waso li sona e kasi." m="Kuş ağacı bilir." />
+</List>
+
+Çıkarabileceğimiz birkaç şey var:
+
+- Kelime sırası Türkçe'de beklenenden farklıdır: her zaman özne-eylem-nesne diye sıralanır. Ayrıca, Türkçe'deki gibi değişken değildir: ilk cümle Türkçe'de "Bitkiyi hayvan yer" olarak da yazılabilir, ama Toki Pona'da sıra sabittir.
+- **󱤧 li** ilgeci eylemlerin önüne konulur.
+- **󱤉 e** ilgeci nesnelerin önüne konulur.
+- Türkçe çeviride "bir", "-lar/ler", "-ı/i/u/ü" gibi kelimeler ve ekler koyduk, ama onlar tahminden ibaret! Toki Pona cümlede "_bir_ kuş"tan mı yoksa "kuşlar"dan mı bahsettiğimiz ile ilgili bir bilgi yok. Daha uzun konuşmalarda hangisi olduğu belli oluyor!
+
+{/* A note for translators */}
+{/*
+  Your language may not have articles. Your language may have gender markers.
+  You can adjust the bullet point above to better suit your language.
+*/}
+
+(**󱤧 li** ve **󱤉 e** başta gereksiz gelebilir. Niye gerekli olduklarını konuşacağız, ama onun için önce kelime türlerine bakmamız gerekiyor!)
+
+<Practice exercises={frontmatter.practice} />

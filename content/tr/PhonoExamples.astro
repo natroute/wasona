@@ -1,0 +1,58 @@
+---
+import Audio from "@/components/Audio.astro";
+---
+
+<style>
+  table {
+    text-align: center;
+  }
+  td:last-child() {
+    text-align: initial;
+  }
+</style>
+<table>
+  <thead>
+    <tr>
+      <th>Kelime</th>
+      <th>Anlam</th>
+      <th>Yardımcı tüyolar</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <Audio td from="linku/asi" file="mi" />
+      <td>ben</td>
+      <td>The vowel is similar to English, but the spelling is different!</td>
+    </tr>
+    <tr>
+      <Audio td from="linku/asi" file="ken" />
+      <td>mümkün</td>
+      <td>The vowel is similar to English, but the spelling is different!</td>
+    </tr>
+    <tr>
+      <Audio td from="linku/asi" file="jan" />
+      <td>kişi</td>
+      <td><b>j</b> harfinin nasıl okunduğunu unutmayın!</td>
+    </tr>
+    <tr>
+      <Audio td from="linku/asi" file="nanpa" />
+      <td>sayı</td>
+      <td>Bir de, <b>np</b> yazarız ama çoğunlukla <b>mp</b> diye okuruz!</td>
+    </tr>
+    <tr>
+      <Audio td from="linku/asi" file="kalama" />
+      <td>ses</td>
+      <td>İlk heceyi vurgulamaya çalışın!</td>
+    </tr>
+    <tr>
+      <Audio td from="linku/asi" file="akesi" />
+      <td>kertenkele</td>
+      <td>Kelimeler ünlüyle de başlayabilir!</td>
+    </tr>
+    <tr>
+      <Audio td from="linku/asi" file="lawa" />
+      <td>kafa</td>
+      <td><b>v</b> diye okumakta sıkıntı yok!</td>
+    </tr>
+  </tbody>
+</table>

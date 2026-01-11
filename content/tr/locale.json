@@ -1,0 +1,23 @@
+{
+  "Index": "Dizin",
+  "Next": "Sonraki",
+  "Previous": "Önceki",
+  "Translation": "Çeviri",
+
+  "Consonants": "Ünsüzler",
+  "Labial": "Dudaksıl",
+  "Coronal": "Taçsıl",
+  "Dorsal": "Damaksıl",
+
+  "Vowels": "Ünlüler",
+  "Front": "İnce",
+  "Central": "Orta",
+  "Back": "Kalın",
+
+  "translate": "Cümleyi çevirin",
+  "check": "kontrol et",
+  "continue": "devam",
+  "incorrect": "❌ Tam değil. Doğru cevap: ",
+  "correct": "✅ Doğru! Aferin!",
+  "done": "🎉 Tüm alıştırmalar bitti!"
+}

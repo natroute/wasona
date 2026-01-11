@@ -1,0 +1,117 @@
+---
+slug: "tr/07"
+title: "7. ders: özel isimler"
+description: "nimi, jan, sitelen, toki, ma ve tomo'yu öğrenin!"
+practice:
+- title: "1. Tekrar"
+  tasks:
+  - l1: "Toprağı çizdim."
+    l2: "mi sitelen e ma."
+    junkChips: ["li"]
+  - l1: "Resmin büyük."
+    l2: "sitelen sina li suli."
+    junkChips: ["e"]
+  - l1: "İnsanlar binaları konuşur."
+    l2: "jan li toki e tomo."
+    junkChips: ["ma"]
+  - l1: "İsmin Maya."
+    l2: "nimi sina li jan Maja."
+    junkChips: ["e"]
+    alsoAccept: ["sina jan Maja."]
+  - l1: "İman, Arapça konuşur."
+    l2: "jan Iman li toki Alapi."
+    junkChips: ["e"]
+  - l1: "Toronto şehri büyüktür."
+    l2: "ma tomo Towano li suli."
+    junkChips: ["e"]
+  - l1: "Kiril alfabesine bakıyorum."
+    l2: "mi lukin e sitelen Kililisa."
+    junkChips: ["li"]
+---
+
+import Sentence from "@/components/Sentence.astro";
+import List from "@/components/List.astro";
+import Word from "@/components/Word.astro";
+import Practice from "@/components/Practice.astro";
+
+## Names
+
+Pointing at things is nice, but sometimes it's nice to be more specific. Introducing: names! A revolutionary technology that allows you to talk about someone or something in particular.
+
+İşaret etmek hoş, ama bazen daha spesifik olmak da gerek. Karşınızda: özel isimler! Belirli bir şeyden ya da kişiden bahsetmeyi sağlayan devrim niteliğinde bir teknoloji.
+
+{/* A note for translators */}
+{/*
+  When I say "revolutionary technology", I am humorously pretending
+  to be a TV presenter trying to sell you something. Feel free
+  to adapt the joke or drop it, at your discretion.
+*/}
+
+Genelde isim verilen şeylerin Toki Pona'larını öğrenelim:
+
+<List>
+  <Word sl="nimi" m="isim, kelime" />
+  <Word sl="jan" m="kişi" />
+  <Word sl="sitelen" m="görsel, yazı; çizmek, yazmak" />
+  <Word sl="toki" m="konuşma, dil; konuşmak, söylemek" />
+  <Word sl="ma" m="toprak, ülke" />
+  <Word sl="tomo" m="bina, oda, ev" />
+</List>
+
+Çoktan bir özel isim biliyorsunuz bile: _sitelen Lasina_! Bazı insan isimlerine bakalım:
+
+<List>
+  <Sentence sl="jan Nowa" m="Noah adlı kişi (İngilizce 'Noah'dan)" />
+  <Sentence sl="jan Ema" m="Emma adlı kişi (İngilizce 'Emma'dan)" />
+</List>
+
+{/* A note for translators */}
+{/*
+  Please keep the names Nowa and Ema. Your language may also have those names,
+  in which case replace "English" with your language.
+*/}
+
+Bu isimlerden görüyoruz ki:
+
+1. Özel isimler aslında sıfat: başka bir kelimenin sonuna gelirler.
+2. Özel isimler büyük harfle başlar. Eğer Toki Pona'da büyük harfle başlayan bir kelime görürseniz, hemen bilin ki bir isim!
+3. _sitelen pona_'da isimleri büyük bir **󱥂 nimi** içine alırız. Bu isim kutucuklarına Mısır hiyerogliflerindeki gibi _kartuş_ diyoruz. İsimdeki her ses için o sesle başlayan bir kelime seçiyoruz. Mesela 'Ema'; 󱤉 **e**, 󱤶 **m**oku, 󱤂 **a**la şeklinde yazılabilir.
+
+İsimler sadece insanlara da konulmaz! Bir dile, bir ülkeye ve bir şehre bakalım:
+
+<List>
+  <Sentence
+    sl="toki Kanse"
+    m="Fransızca adlı dil (Fransızca 'français'den)"
+  />
+  <Sentence sl="ma Tosi" m="Almanya adlı yer (Almanca 'Deutsch'tan)" />
+  <Sentence
+    sl="ma tomo Loma"
+    m="Roma adlı bina yeri (Latince 'Rōma'dan)"
+  />
+</List>
+
+These names tell us more about how a Toki Pona name is made:
+
+4. When names enter Toki Pona, they _change_ to the sound system of Toki Pona. There is no **d** in Toki Pona, so the word Deutsch starts with a **t**. Some changes are small, like _Noah_ → _Nowa_, some are large, like _français_ → _Kanse_.
+5. Names are often not from English. We like to use _endonyms_: self-names of countries, languages, people, and so on. The name for French comes from French!
+
+4. İsimler Toki Pona'ya girdiğinde, Toki Pona'nın ses sistemine _ayak uydurur_. Toki Pona'da **d** yok, o yüzden Deutsch kelimesi **t** ile başlar. Bazı değişimler küçük -- mesela _Noah_ → _Nowa_ -- bazıları da geniştir -- mesela _français_ → _Kanse_.
+
+Let's practice using the new words and names in sentences:
+
+<List>
+  <Sentence sl="waso li lukin e ma." m="The bird looks at the land." />
+  <Sentence sl="jan li toki e tomo." m="People speak about a house." />
+  <Sentence sl="jan pona li toki pona." m="Pleasant people speak well." />
+  <Sentence sl="nimi ona li jan Kenta." m="His name is Kenta." />
+  <Sentence sl="jan Sunita li sitelen e pipi." m="Sunita draws a bug." />
+  <Sentence sl="jan Nina li toki Kanse." m="Nina speaks French." />
+  <Sentence sl="jan Ema li sona pona e ma Tosi." m="Emma knows Germany well." />
+</List>
+
+<Practice exercises={frontmatter.practice} />
+
+## See also
+* [Q: Toki Pona'da ismim ne?](/en/make-a-name/)
+* [Q: sitelen pona'da isimler uzun duruyor. Nasıl kısaltabilirim?](/en/simpler-cartouches/)

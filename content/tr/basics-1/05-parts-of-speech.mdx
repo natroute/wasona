@@ -1,0 +1,106 @@
+---
+slug: "tr/05"
+title: "5. ders: kelime türleri"
+description: "İsimleri, eylemleri, sıfatları öğrenin!"
+practice:
+- title: "1. Tekrar"
+  tasks:
+  - l1: "güçlü bir böcek"
+    l2: "pipi wawa"
+  - l1: "böceğin gücü"
+    l2: "wawa pipi"
+  - l1: "büyük bir göz"
+    l2: "lukin suli"
+  - l1: "iyi yemek"
+    l2: "moku pona"
+  - l1: "müthiş derecede güzel"
+    l2: "pona wawa"
+  - l1: "Yemek gözleri iyileştirir."
+    l2: "moku li pona e lukin."
+    junkChips: ["waso"]
+  - l1: "Hayvanlar kuşların tatlılığını bilir."
+    l2: "soweli li sona e suwi waso."
+    junkChips: ["suli"]
+---
+
+import Sentence from "@/components/Sentence.astro";
+import List from "@/components/List.astro";
+import Word from "@/components/Word.astro";
+import Practice from "@/components/Practice.astro";
+
+## Kelime türleri
+
+Bazılarınız **󱥡 sona** kelimesini iki kez gösterdiğimi fark etmiş olabilirsiniz; önce 'bilmek' eylemi, sonra da 'bilge' sıfatı olarak. Peki hangisi? Ve nereden anlaşılıyor?
+
+Gerçekte ikisi de olabilir! İsimden sonra gelirse sıfat olur. **󱤧 li** ile eylem olduğu belirtilirse eylem olur. Hepsi cümledeki kelime sırasına bağlı!
+
+Aslında aynısı _bütün_ kelimeler için geçerli: eğer bir şey isim, eylem veya sıfatsa, _üçünden herhangi biri_ olabilir! Önceden öğrendiğimiz kelimelerden bazı örneklere bakalım:
+
+<List>
+  <Word sl="lukin" m="<b>İ:</b> göz;&ensp;<b>E:</b> görmek" />
+  <Word sl="moku" m="<b>İ:</b> yiyecek, yemek;&ensp;<b>E:</b> tüketmek, yemek" />
+  <Word sl="sona" m="<b>İ:</b> bilgi, bilgelik;&ensp;<b>E:</b> bilmek;&ensp;<b>S:</b> bilgili, bilge" />
+  <Word sl="suli" m="<b>İ:</b> büyüklük;&ensp;<b>E:</b> büyütmek, önem vermek;&ensp;<b>S:</b> büyük, önemli" />
+  <Word sl="pona" m="<b>İ:</b> iyilik;&ensp;<b>E:</b> iyileştirmek, geliştirmek;&ensp;<b>S:</b> iyi, hoş" />
+  <Word sl="waso" m="<b>İ:</b> kuş;&ensp;<b>E:</b> kuşa dönüştürmek;&ensp;<b>S:</b> kuşun, kuşumsu" />
+</List>
+
+Şu ana kadar gördüğümüz kelimelerden sadece örüntüyü açıklayacak kadarını sıraladım: {/* ? */}
+* **Eylemler isim olduğunda** genelde bir şeyi yapma işini veya işlemini (*bilgi*) ya da o işin kritik bir parçası olan bir şeyi (*yemek, göz*) ifade eder.
+* **Eylemler sıfat olduğunda**, bir şeyi yapanları ifade eder (*bilgililer ~ bilenler*).
+* **İsimler eylem olduğunda**, bir şeyi başka bir şeye dönüştürmeyi veya uygulamayı ifade eder (*kuşa dönüştürmek*).
+* **İsimler sıfat olduğunda**, iyelik (sahip olma) veya benzerlik ifade eder (*kuşun, kuşumsu*)
+* **Sıfatlar isim olduğunda**, bir nitelik ifade eder (*iyilik, büyüklük*).
+* **Sıfatlar eylem olduğunda**, bir niteliği katar (*iyileştirmek, büyütmek*).
+
+Ama biz Toki Pona konuşurken çoğu zaman bu örüntüleri düşünmemize gerek bile kalmıyor! Birbirleriyle karışmaya başlıyorlar. Bir noktada artık bir şeyin başta isim mi, eylem mı, sıfat mı olduğunu düşünmeyi bile bırakıyoruz. Birbirine uyan bir bütün haline geliyor!
+
+Hadi bu kelimeleri isim, eylem ve sıfat olarak kullanmanın pratiğini yapalım:
+
+<List>
+  <Sentence sl="lukin li pona e sona." m="Gözler bilgiyi geliştirir." />
+  <Sentence sl="moku li suli e pipi." m="Yemek böcekleri büyütür." />
+  <Sentence
+    sl="moku li wawa e soweli lili."
+    m="Yemek küçük hayvanı güçlendirir."
+  />
+</List>
+
+## Kelime sırası önemli!
+
+Her isim sıfat olabildiği ve her sıfat da isim olabildiği için kelime sırası çok önemli! Dikkat edin, şu iki söz ne kadar başka anlamlara geliyor:
+
+<List>
+  <Word sl="soweli suli" m="büyük hayvan" />
+  <Word sl="suli soweli" m="hayvanın büyüklüğü" />
+  <Sentence
+    sl="soweli suli li sona e suli soweli."
+    m="Büyük hayvan, hayvanın büyüklüğünü bilir."
+  />
+</List>
+
+## *li* ve *e* de önemli!
+
+Hani li ve e biraz gereksiz gelmişti ya? Artık anlamlı herhangi bir kelimenin herhangi bir yere isim, eylem veya sıfat olarak konulabildiğini bildiğimize göre, sonunda ne kadar önemli olduklarını görebiliriz. Sayelerinde şu üç çok farklı cümleyi ayırt edebiliyoruz:
+
+<List>
+  <Word sl="soweli sona" m="bilge hayvan" />
+  <Word sl="sona pona" m="iyi bilgi; iyi bilmek" />
+  <Word sl="pona waso" m="kuşun iyiliği" />
+  <Sentence
+    sl="soweli sona li pona e waso."
+    m="Bilge hayvan kuşa yardım eder."
+  />
+  <Sentence
+    sl="soweli li sona pona e waso."
+    m="Hayvan kuşu iyi bilir."
+  />
+  <Sentence
+    sl="soweli li sona e pona waso."
+    m="Hayvan kuşun ne kadar iyi olduğunu bilir."
+  />
+</List>
+
+Eğer bir cümle nasıl okunur ya da yazılır diye hiç kafanız karışırsa, ilk şunu sorun: "Özne nerede? Eylem nerede? Nesne nerede?", ve her şey küçük küçük sözlere ayrılacaktır!
+
+<Practice exercises={frontmatter.practice} />
